@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --primary-color: #00BDD6;
+  --secondary-color: #fff;
+  --tertiary-color: #000000;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-variation-settings:
+    "slnt" 0;
+  display: flex;
+}
+@keyframes waveAnimation {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: 100% 100%;
+  }
+}
+.sidebar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 68px;
+  height: 110vh;
+  padding: 35rem 1.7rem 0rem 1.7rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background: #fff;
+  animation: waveAnimation 4s infinite;
+  box-shadow: none;
+  background-position: center;
+  background-size: cover;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.image{
+  width:20vh;
+  height:20vh;
+  border-radius: 13px;
+}
+
+.sidebar:hover{
+  width: 340px;
+  transition: 0.5s all ease;
+}
+
+.dropdown-li{
+  list-style: none;
+}
+.dropdown-li:hover{
+  padding-bottom:30vh
+}
+
+.shona:hover{
+  padding-bottom:30vh
+}
+ul li ul.dropdown li{
+  display: block;
+  transition: 1s;
+}
+ul li ul.dropdown{
+  width: 20%;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  transition: 1s;
+  margin-bottom: 40rem;
+}
+ul li ul.dropdown li a:hover{
+  font-size: 18px;
+  text-align: center;
+  transition: 1s;
+}
+ul li ul.dropdown li a{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+
+}
+ul li:hover ul.dropdown{
+  display:block;
+  transition: 10s;
+}
+
+
+.menu{
+  height: 88%;
+  position: relative;
+  list-style: none;
+  margin-top: 06rem;
+}
+
+.menu li span{
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.menu li ion-icon{
+  color: black;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  font-size:20px
+}
+.menu li{
+  border-radius: 8px;
+  transition: all 0.5s linear;
+}
+
+.menu li:hover{
+  width: fit-content;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  transition: .6s ease-in-out all;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.menu li:hover a {
+  color: #fff; /* Change text color on hover */
+}
+
+.fire-base{
+  display:flex;
+  justify-content: space-between;
+  padding:2rem;
+}
+
+.grill h1{
+  margin-top: 15px;
+}
+
+
+.Transaction{
+  font-size: 11.5px;
+}
+
+.peng-black i{
+  font-size: 30px;
+  margin: 1.8vh;
+}
+
+.gif{
+  padding-left: 90px;
+}
+.grill{
+  display: flex;
+  justify-content: center;
+}
+
+.base-1{
+  border:1px white solid;
+  border-radius:20px;
+  height:fit-content;
+  width:260PX;
+  margin:2rem;
+  flex-direction: column;
+  background: #F5F6F8;
+  box-shadow:1px 1px 0.5px 1px rgb(97, 146, 236);
+  text-align: center;
+}
+.base-1:hover{
+  transform: scale(1.1);
+  transition: 0.8s all ease-in-out;
+}
+.base-1 h3{
+  padding:30px;
+  font-style: italic;
+}
+.base-1 h1{
+  font-size:50px;
+  font-style: italic;
+}
+
+#i{
+  color: var(--primary-color);
+  font-size:60px
+}
+
+
+.menu li{
+  width: 100%;
+  padding: .6rem;
+  margin: 8px 0px;
+  border-radius: 8px;
+  transition: all 0.5s linear;
+}
+
+.menu li:hover{
+  background-color: var(--primary-color);
+  width: 120%;
+  height: 6%;
+}
+
+.menu a{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  align-items: center;
+  gap:1.5rem;
+}
+/* 
+.menu a span{
+  overflow:hidden;
+} */
+
+.logout{
+  position: absolute;
+  bottom: 15%;
+  left: 0%;
+  width: 100%;
+}
+.main-content{
+  position: relative;
+  background: #F0F5EE;
+  width: 100%;
+  height: 160vh;
+  box-shadow: 10px 0px 60px 0px black;
+}
+
+
+.header-wrapper{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:#F0F5EE;
+  padding: 10px 2rem;
+  margin-bottom: 1rem;
+  border-radius: 07px;
+}
+
+.header-title{
+  color: var(--primary-color);
+}
+
+.gango{
+  margin: 1.5rem;
+}
+
+
+.my-account-header{
+  font-size: 22px;
+  color: var(--tertiary-color);
+}
+
+.my-account-header p{
+  color: var(--tertiary-color);
+}
+.user-info{
+  display: flex;
+  padding: 1rem;
+}
+
+.peng-black{
+  margin: 15px;
+  background-color: black;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  border-radius: 100%;
+  list-style-type: disc;
+}
+
+.btn-3{
+  border-radius: 10px;
+  margin: 1rem;
+  height: 60px;
+  border: none;
+  background-color: var(--primary-color);
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+  padding:10px 15px
+}
+.btn-4{
+  border-radius: 50%;
+  margin: 1rem;
+  height: 50px;
+  width:50px;
+  border: none;
+  background-color: var(--primary-color);
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+  padding:10px 15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-4:hover{
+  width: 60%;
+  transition:all .7s linear;
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.btn-3 a,.btn-4 a{
+  padding: 1rem;
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.btn-2{
+  margin:0 auto;
+  background-color: var(--primary-color);
+}
+
+.modd{
+  margin:0 auto;
+}
+.hastings-1{
+  margin: 0 auto;
+  padding:1rem;
+  width: 170vh;
+  height:65vh;
+  border-radius: 20px;
+  background-color: #ecebf3;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.another-hastings{
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding:1rem;
+}
+
+
+.search__box {
+  padding: 0.5rem 0;
+  border-bottom: 2px solid var(--extra-light);
+}
+
+.search__box input {
+  color: var(--extra-light);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size:3vh;
+  padding:1rem
+}
+
+.search__box i {
+  color: var(--extra-light);
+  font-size: 1.0rem;
+  cursor: pointer;
+}
+
+

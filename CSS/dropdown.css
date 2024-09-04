@@ -1,0 +1,80 @@
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.select {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.select .selectee {
+  margin-left: 22px;
+}
+
+.caret {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid black;
+  transition: 0.4s;
+  margin-left: auto;
+}
+
+.caret-rotate {
+  transform: rotate(180deg);
+}
+
+.fireef {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  opacity: 0;
+  transition: 0.3s;
+  background-color: #fff;
+  position: relative;
+}
+
+.fireef.menu-open {
+  display: block;
+  opacity: 1;
+  margin-top: 0;
+}
+
+.fireef li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.fireef:hover li {
+  font-size:17px
+}
+
+.ropdown{
+  padding:1rem 0rem;
+}

@@ -1,0 +1,112 @@
+.merge{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 25px;
+}
+.food-access{
+  padding:0px 30px
+}
+.chaladan::before{
+content: "Key Indicators";
+position: absolute;
+top: -20px;
+left: 50%; 
+transform: translateX(-50%); 
+background-color:#EDF3FF;
+padding: 0 10px;
+color: #333;
+}
+#chaladan::before{
+content: "Policy Recommendations";
+position: absolute;
+top: -20px;
+left: 50%; 
+transform: translateX(-50%); 
+background-color:#EDF3FF;
+padding: 0 10px;
+color: #333;
+}
+.chaladan{
+  position:relative;
+  width:fit-content;
+  height:fit-content;
+  background:#EDF3FF;
+  margin:0 auto;
+  justify-content:center;
+  border: 2px solid #333;
+  border-radius:10px
+}
+canvas:hover{
+  transform: scale3d(1.2);
+}
+canvas{
+  background:#fff;
+  border-radius:15px;
+  width:500px;
+  height:400px
+}
+#food-access{
+  background:#91BD75;
+  border-radius:15px;
+  width:500px;
+  height:400px;
+  color:#fff;
+}
+.calados{
+  padding:0px 24px 10px 24px;
+}
+.lenovo{
+  height:1000px
+}
+h3{
+  list-style: circle;
+  padding:30px 0px 30px 0px;
+  }
+.h4{
+  padding:30px 0px 30px 0px;
+}
+.h4 span{
+  color:#EFBAAA
+}
+
+.far-off{
+  display:flex;
+  justify-content: center;
+}
+.grind-harder{
+  padding:10px 20px;
+  display: flex;
+}
+.concious{
+  display:block;
+  background:white;
+  padding:10px 20px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+}
+.one-time{
+  margin:0px 4rem;
+}
+.one-time h2{
+  color:#2ECC71;
+}
+
+.tol{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex:1 3 auto;
+  padding:1rem;
+}
+.tyy,.boo,.yyt{
+  width:55vh;
+  height:25vh;
+  background:white;
+  color:black;
+  border-radius:15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tyy:hover,.boo:hover,.yyt:hover{
+  transform: scaleX(1.1) scaleY(1.1);
+  transition:all 0.6s ease-in;
+
+}

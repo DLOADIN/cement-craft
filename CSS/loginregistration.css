@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+  --primary-color: #00BDD6;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border:none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.grided{
+  display: flex;
+  padding: 3rem;
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  /* background: url("../image/5192479.jpg")no-repeat; */
+  background: none;
+  background-size: cover;
+  background-position: center;
+}
+
+label{
+  font-weight: bolder;
+}
+
+.inputbox ion-icon{
+  font-weight: bolder;
+}
+#grided{
+  display: flex;
+  padding: 3rem;
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  /* background: url("../image/6060171.jpg")no-repeat; */
+  background: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-1{
+  padding: 2rem;
+  background-color: transparent;
+  backdrop-filter: blur(5px) brightness(190%);
+  width: 100%;
+  height: 38rem;
+  border-radius: 10px;
+  color: aliceblue;
+  text-align: center;
+  align-items: center;
+}
+.text-1{
+  margin-top: 2rem;
+  text-align: center;
+}
+.text{
+  margin-top: 5rem;
+  text-align: center;
+  color:black
+}
+.text h1{
+  font-size: 50px;
+}
+.text-1 h1{
+  font-size: 50px;
+  color: var(--primary-color);
+}
+
+.text p{
+  font-size: 17px;
+  padding: 1rem;
+}
+
+
+.text-1 img{
+  height:350px;
+  width:450px
+}
+
+.grid-2{
+  padding:0rem 5rem;
+  background-color: white;
+  backdrop-filter: blur(5px) brightness(190%);
+  width: 850px;
+  height: fit-content;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 5px solid var(--primary-color);
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn{
+  margin: 3rem;
+  border-radius: 40px;
+  width:50%;
+  height: 60px;
+  border: none;
+  margin-bottom: 5%;
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+.btn-2{
+  border-radius: 40px;
+  width:50%;
+  height: 60px;
+  border: none;
+  background-color:var(--primary-color);
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+form{
+  margin: 3rem;
+}
+
+
+.inputbox input{
+  padding: 1rem;
+  height: 3rem;
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+}
+
+.inputbox ion-icon{
+  position: absolute;
+  right:8px;
+  color: black;
+  font-size: 1.2em;
+  top: 20px;
+}
+
+.inputbox{
+  position: relative;
+  margin: 30px 0;
+  width: 100%;
+  border:3px solid white;
+}
+
+.inputbox label{
+  position: absolute;
+  top:50%;
+  left: 20px;
+  transform: translateY(-70%);
+  color: black;
+  font-size: 13px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+/* Animation: Start */
+input:focus~label,
+input:valid~label{
+  top:-5px;
+}
+
+nav{
+  width: 100%;
+  margin: 0 auto ;
+  top:0;
+  right:0;
+  padding: 20px 1%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+nav img{
+  width: 33vh;
+  height:20vh;
+}
+
+.fa-solid{
+  margin-left: 40px;
+}
+
+nav li{
+  list-style: none;
+}
+nav li ul{
+  display: inline-block;
+  padding: 35px;
+}
+nav li ul .a{
+  color:var(--primary-color);
+  font-size: 25px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-4{
+  margin: 3rem;
+  border-radius: 25px;
+  width:90%;
+  height: 80px;
+  border: none;
+  background-color:var(--primary-color);
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+
+.btn-5{
+  margin: 3rem;
+  border-radius: 35px;
+  width:50%;
+  height: 80px;
+  border: none;
+  background-color:var(--primary-color);
+  border: 3px solid #fff;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+.btn-6{
+  margin: 3rem;
+  border-radius: 35px;
+  width:50%;
+  height: 80px;
+  border: none;
+  background-color:transparent;
+  border: 3px solid #fff;
+  color:var(--primary-color);
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+.btn-7{
+  margin: 3rem;
+  transform: translateX(400%);
+  border-radius: 35px;
+  width:20%;
+  height: 80px;
+  border: none;
+  background-color:var(--primary-color);
+  border: 3px solid #fff;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.body{
+  background: rgb(240, 216, 216);
+  width:100%;
+  height:100vh;
+  position: relative;
+  padding: 0 auto;
+}
+.btn-4:hover{
+  width: 120%;
+  transition: .7s ease all;
+}
+.btn-5:hover{
+  width: 70%;
+  transition: .7s ease all;
+}
+
+#btn-4 a{
+  color: var(--primary-color);
+}
+
+.btn-6:hover{
+  width: 70%;
+  transition: .7s ease all;
+}
+
+.point{
+  display: flex;
+  padding: 5rem;
+  justify-content: flex-end;
+}
+.point img{
+  margin: 20px;
+  width: 70vh;
+  border-radius: 20px;
+}
+.point-1 h1{
+  font-size: 90px;
+  color:var(--primary-color);
+}
+.point-1 h2{
+  padding-left: 20px;
+  font-size: 30px;
+  color:var(--primary-color);
+}
+.point-1 p{
+  padding-top:05vh;
+  margin: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  color:#5D5A88
+}
+
+.bridge{
+  display: flex;
+  
+}
+.bridge-1{
+  margin: 1.5rem;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border:4px solid #1C05B3;
+  background-color: #fff;
+  color:#5D5A88;
+  box-shadow: 10px 5px 5px rgb(252, 240, 240);
+}
+
+.bridge-1:hover{
+  background-color: #00BDD6;
+  transition: .7s all ease-in-out;
+  color: #fff;
+}
+
+.bridge-1 p{
+  font-size: 30px;
+}
+.bridge-1 i{
+  color: #5D5A88;
+  font-size: 40px;
+  padding: 30px;margin-right: 45px;
+}
+
+.bridge-1 input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+
+  border: 2px solid #5D5A88;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid var(--primary-color);
+  outline: unset !important /* I added this one for Edge (chromium) support */
+}
+
+.paragraphed{
+  color:#5D5A88;
+  font-size: 30px;
+  padding: 2rem;
+}
+
+.paragraphed p{
+  margin: 2rem;
+}
+
+.grid-3{
+  padding: 2rem;
+  background-color: white;
+  backdrop-filter: blur(5px) brightness(190%);
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
+}
